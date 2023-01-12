@@ -1,3 +1,3 @@
 # README
 
-Dieses Repository beinhaltet mein eigenen Notizen und Tutorials für Programmiersprachen und Programme.
+Dieses Repository beinhaltet meine eigenen Notizen und Tutorials für Programmiersprachen und Programme.
