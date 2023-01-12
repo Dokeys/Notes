@@ -23,4 +23,5 @@ Dieses Repository beinhaltet meine eigenen Notizen und Tutorials für Programmie
 
 ### Python
 - [Dateien](https://github.com/Dokeys/Notes/blob/main/Python/Dateien.md)
+- [Verschiedenes](https://github.com/Dokeys/Notes/blob/main/Python/Verschiedenes.md)
 
