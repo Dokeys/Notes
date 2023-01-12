@@ -66,5 +66,3 @@ In einem `except` Block:
         print("do something with the exception")
         print(e)
 ```
-
-
