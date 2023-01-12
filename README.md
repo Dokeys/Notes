@@ -16,3 +16,6 @@ Dieses Repository beinhaltet meine eigenen Notizen und Tutorials für Programmie
 - [PyCharm-Shortcuts](https://github.com/Dokeys/Notes/blob/main/Keyboard-Shortcuts/PyCharm-Shortcuts.md)
 - [VSCode-Shortcuts](https://github.com/Dokeys/Notes/blob/main/Keyboard-Shortcuts/VSCode-Shortcuts.md)
 
+### Python
+- [Dateien](https://github.com/Dokeys/Notes/blob/main/Python/Dateien.md)
+
