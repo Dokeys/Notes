@@ -23,5 +23,6 @@ Dieses Repository beinhaltet meine eigenen Notizen und Tutorials für Programmie
 
 ### Python
 - [Dateien](https://github.com/Dokeys/Notes/blob/main/Python/Dateien.md)
+- [Error-Handling](https://github.com/Dokeys/Notes/blob/main/Python/Error-Handling.md)
 - [Verschiedenes](https://github.com/Dokeys/Notes/blob/main/Python/Verschiedenes.md)
 
