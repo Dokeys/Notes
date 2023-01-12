@@ -10,5 +10,4 @@
 
 ## Zu anderer Datei gehen
 
-Shows a list of open files, and allows you to select a file to switch to:
-`[control]` + `[e]`
+`[control]` + `[e]` *Shows a list of open files, and allows you to select a file to switch to*

@@ -2,18 +2,19 @@
 
 ## Datei wechseln
 
-`[control]` + `[P]`
+`[control]` + `[P]` <br />
     in Eingabefeld folgendes eingeben:
-    `[>] `       *VS Funktionen aufrufen*
-    `[@]`        *Funktionen, Klassen usw. aus Datei aufrufen*
-    `[#]`        *Symbol finden*
-    `[:]` + Zeilennummer    *zu Zeile X springen*
+
+- `[>] `       *VS Funktionen aufrufen* 
+- `[@]`        *Funktionen, Klassen usw. aus Datei aufrufen* 
+- `[#]`        *Symbol finden* _
+- `[:]` + Zeilennummer    *zu Zeile X springen* 
 
 ## Multiline
 
-`[alt]` + `[control]` + `[shift]` + `[Pfeiltasten]` *multiline selection*
-`[alt]` + `Mausklick`         *multiline selection*
-`[control]` + `[d]` + `[d]` *für gleiche Wörter*
+- `[alt]` + `[control]` + `[shift]` + `[Pfeiltasten]` *multiline selection* 
+- `[alt]` + `Mausklick`         *multiline selection*  
+- `[control]` + `[d]` + `[d]` *für gleiche Wörter* 
 
 ## Zeile löschen
 

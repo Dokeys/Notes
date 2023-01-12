@@ -12,8 +12,7 @@ Markieren
 
 ## Umnennen
 
-Alle gleichnamigen Methoden, Klassen, Variablen usw. umnennen.
-`[shift]` + `[F6]`
+`[shift]` + `[F6]` *Alle gleichnamigen Methoden, Klassen, Variablen usw. umnennen.*
 
 ## Nach PyCharm Funktionen suchen
 
