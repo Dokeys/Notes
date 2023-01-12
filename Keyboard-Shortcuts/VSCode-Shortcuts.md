@@ -11,8 +11,9 @@
 
 ## Multiline
 
-`[control]` + `[d]` + `[d]`    *für gleiche Wörter*
-`[alt]` + Mausklick        *multiline selection*
+`[alt]` + `[control]` + `[shift]` + `[Pfeiltasten]` *multiline selection*
+`[alt]` + `Mausklick`         *multiline selection*
+`[control]` + `[d]` + `[d]` *für gleiche Wörter*
 
 ## Zeile löschen
 
@@ -25,3 +26,11 @@
 ## Zeile kopieren
 
 `[alt]` + `[shift]` + `[Peiltasten]`
+
+## Umnennen
+
+`[F2]` *Variablen, Funktionen usw. mit dem selben Namen auf einmal umnennen*
+
+## Formatter
+
+Für Python Black Formatterf von Microsoft installieren und unter *Settings->Text Editor->Formatting*, `Format On Save` aktivieren.
