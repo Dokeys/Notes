@@ -16,6 +16,11 @@ Dieses Repository beinhaltet meine eigenen Notizen und Tutorials für Programmie
 - [PyCharm-Shortcuts](https://github.com/Dokeys/Notes/blob/main/Keyboard-Shortcuts/PyCharm-Shortcuts.md)
 - [VSCode-Shortcuts](https://github.com/Dokeys/Notes/blob/main/Keyboard-Shortcuts/VSCode-Shortcuts.md)
 
+### Linux
+- [git](https://github.com/Dokeys/Notes/blob/main/Linux/git.md)
+- [tmux](https://github.com/Dokeys/Notes/blob/main/Linux/tmux.md)
+- [vim](https://github.com/Dokeys/Notes/blob/main/Linux/vim.md)
+
 ### Python
 - [Dateien](https://github.com/Dokeys/Notes/blob/main/Python/Dateien.md)
 

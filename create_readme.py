@@ -20,7 +20,7 @@ NOTES_DIRECTORY = "."
 HEADER_FILE = "readme_header.md"
 OUTPUT_FILE = "README.md"
 
-FOLDERS_TO_IGNORE = ("Linux", "Elektronik Entwicklung", "Mathe", "Delphi", "Design Pattern", "Java", "mySQL", "Richtlinien", "Windows")
+FOLDERS_TO_IGNORE = ("Elektronik Entwicklung", "Mathe", "Delphi", "Design Pattern", "Java", "mySQL", "Richtlinien", "Windows")
 USED_FILE_TYPES = (".md")
 
 # Functions
