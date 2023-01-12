@@ -8,11 +8,11 @@ Datei, wenn möglich mit `with` Schleife öffnen.
 with open("path/to/file.txt", "r", encoding="utf-8") as file:
 ```
 
-`"r"` *von Datei lesen. Falls Datei nicht existiert, kommt ein* `"FileNotFoundError"`
-`"w"` *in neu erzeugte Datei schreiben*
-`"a"` *anhängen*
-`"x"` *in neu erzeugte Datei schreiben. Falls Datei existiert, kommt ein* `"FileExistsError"` 
-`"b"` *Binary Datei*
+- `"r"` *von Datei lesen. Falls Datei nicht existiert, kommt ein* `"FileNotFoundError"` 
+- `"w"` *in neu erzeugte Datei schreiben*
+- `"a"` *anhängen*
+- `"x"` *in neu erzeugte Datei schreiben. Falls Datei existiert, kommt ein* `"FileExistsError"`  
+- `"b"` *Binary Datei*
 
 Bei `open` kann noch optional der Parameter für die Codierung hinzugefügt werden, mit z.B.:  `encoding="utf-8"`. Dies sollte immer gemacht werden, um Fehler zu vermeiden.
 
