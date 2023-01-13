@@ -9,6 +9,7 @@
 - `[@]`        *Funktionen, Klassen usw. aus Datei aufrufen* 
 - `[#]`        *Symbol finden* _
 - `[:]` + Zeilennummer    *zu Zeile X springen* 
+- zum Datei wechseln, Dateiname eingeben
 
 ## Multiline
 
@@ -35,3 +36,7 @@
 ## Formatter
 
 Für Python Black Formatterf von Microsoft installieren und unter *Settings->Text Editor->Formatting*, `Format On Save` aktivieren.
+
+## Hide Sidebar
+
+`[control]` + `[b]`
