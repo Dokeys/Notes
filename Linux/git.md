@@ -49,3 +49,37 @@ Anschließend mit `push` das main Repository mit dem lokalen synchronisieren.
 ```git
 git push
 ```
+
+## Diff
+
+Aktuelles Verzeichnis mit main Branch vergleichen.
+
+```git
+$ git diff main 
+```
+
+## Branches
+
+```git
+$ git branch --list
+  main
+* newfeature
+```
+
+Branch wechseln:
+
+```git
+$ git checkout main
+```
+
+Neue branch erstellen:
+
+```git
+git branch neuer_branch_name
+```
+
+Branch löschen:
+
+```git
+git branch -d branch_name
+```
