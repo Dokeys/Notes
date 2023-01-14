@@ -28,3 +28,6 @@ Dieses Repository beinhaltet meine eigenen Notizen und Tutorials für Programmie
 - [UnitTest](https://github.com/Dokeys/Notes/blob/main/Python/UnitTest.md)
 - [Verschiedenes](https://github.com/Dokeys/Notes/blob/main/Python/Verschiedenes.md)
 
+### UML
+- [Klassendiagramme-Objektdiagramme](https://github.com/Dokeys/Notes/blob/main/UML/Klassendiagramme-Objektdiagramme.md)
+
