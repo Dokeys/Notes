@@ -2,132 +2,134 @@
 
 ## Cursor bewegen
 
-`[h]` *links*
-`[j]` *runter*
-`[k]` *hoch*
-`[l]` *rechts*
-
-`[w]` *until the start of the next word, EXCLUDING its first character*
-`[e]` *to the end of the current word, INCLUDING the last character*
-`[$]` *to the end of the line, INCLUDING the last character*
+- `[h]` *links* 
+- `[j]` *runter* 
+- `[k]` *hoch* 
+- `[l]` *rechts* 
+- `[w]` *until the start of the next word, EXCLUDING its first character* 
+- `[e]` *to the end of the current word, INCLUDING the last character* 
+- `[$]` *to the end of the line, INCLUDING the last character* 
 
 ## Input Mode
 
-`[i]` *put the cursor before the current position*
-`[a]` *put the cursor after the current position*
-`[o]` *put the cursor below the line*
-`[O]` *puts the cursor above the line*
+- `[i]` *put the cursor before the current position* 
+- `[a]` *put the cursor after the current position* 
+- `[o]` *put the cursor below the line* 
+- `[O]` *puts the cursor above the line* 
 
 ## Edit Mode verlassen
 
-`[control]` + `[c]`
+`[control]` + `[c]` 
 
 ## Suchen
 
-`/Suchword` oder `?Suchword`. Danach mit `[n]` zum nächsten Treffer springen und um oben zu suchen `[#]` drücken.
+`/Suchword` oder `?Suchword`. Danach mit `[n]` zum nächsten Treffer springen und um oben zu suchen `[#]` drücken. \
 
 ## Löschen
 
-`[d]` + `[d]`*Zeile löschen*
-`[d]` + `[w]` *ein Wort löschen*
-`[d]` + `[2]` + `[w]` *zwei Wörter löschen*
+- `[d]` + `[d]`*Zeile löschen* 
+- `[d]` + `[w]` *ein Wort löschen* 
+- `[d]` + `[2]` + `[w]` *zwei Wörter löschen* 
 
 ## Kopieren
 
-`[y]` + `[y]`
-`["]` + `[+]` + `[y]` *in Zwischenablage kopieren*
+- `[y]` + `[y]` 
+- `["]` + `[+]` + `[y]` *in Zwischenablage kopieren* 
 
 ## Einfügen
 
-`[p]` + `[p]`
-`["]` + `[+]` + `[p]` *aus Zwischenablage einfügen*
+- `[p]` + `[p]` 
+  -`["]` + `[+]` + `[p]` *aus Zwischenablage einfügen* 
 
 ## Ausschneiden
 
-`[d]` + `["]`
+`[d]` + `["]` 
 
 ## Rückgängig
 
-`[u]`
-`[control]` + `[r]` *Redo*
+- `[u]` 
+- `[control]` + `[r]` *Redo* 
 
 ## Buchstaben oder Wörter markieren
 
-`[v]`
+`[v]` 
 
 ## Öffne Datei unter Cursor
 
-`[g]` + `[f]`
+`[g]` + `[f]` 
 
 ## Öffne Datei unter Cursor in neuem Tab:
 
-[strg+w] gf
+[strg+w] gf 
 
 ## Arbeiten mit Tabs
 
 ### Neuen Tab öffnen
 
-`:tab` Commando
-`:tabnew name`
+- `:tab` Commando 
+- `:tabnew name` 
 
 ### Bestehende Datei öffnen
 
-`:tabedit Pfad`
+`:tabedit Pfad` 
 
 ### Tabs wechseln
 
-:tabn :tabp
-gt oder g([shift]t)
+- :tabn :tabp 
+- gt oder g([shift]t) 
 
 ### Tabs verschieben
 
-:tabmove -2 oder :tabmove +
+:tabmove -2 oder :tabmove + 
 
 ## Zeilen anzeigen
 
-`:set nu`
+`:set nu` 
 
 ## Auto completion
 
-`[strg]` + `[p]` im Edit mode
+`[strg]` + `[p]` im Edit mode 
 
 ## Line breaking
 
-:set wrap
-:set nowrap
+- :set wrap 
+- :set nowrap 
 
 ## Tabstop Abstand setzen
 
-:set ts=4
+:set ts=4 
 
 ## Anschauen
 
-`[Control]` + `[f]` *Move forward one full screen*
-`[Control]` + `[d]` *Move forward 1/2 screen*
-`[Control]` + `[b]` *Move back one full screen*
-`[Control]` + `[u]` *Move back (up) 1/2 screen*
+- `[Control]` + `[f]` *Move forward one full screen* 
+- `[Control]` + `[d]` *Move forward 1/2 screen* 
+- `[Control]` + `[b]` *Move back one full screen* 
+- `[Control]` + `[u]` *Move back (up) 1/2 screen* 
 
 ## Von VIM aus compilieren
 
-Eine Makefile muss vorhanden sein:
-`:make`
+Eine Makefile muss vorhanden sein: 
 
-Um Make Fehler anzuschauen:
-`:copen`
+- `:make` 
 
-Mit `:!Befehl `wird ein ganz normalaes Bash Comando ausgeführt. So kann zum Beispiel ein Programm gestartet werden `:!./program`
+Um Make Fehler anzuschauen: 
+
+- `:copen` 
+
+Mit `:!Befehl `wird ein ganz normalaes Bash Comando ausgeführt. So kann zum Beispiel ein Programm gestartet werden `:!./program` 
 
 ## Marks
 
-`[m]` + `[Buchstabe]` *set marker*
-`[']` + `[Buchstabe]` *go to marker*
-Buchstabe klein local Mark, Buchstabe groß global Mark
+- `[m]` + `[Buchstabe]` *set marker* 
 
-- am besten max. Vier Marker verwenden nach wichtigkeit im Kopf sortiert. R E W Q Finger von linker Hand.
+- `[']` + `[Buchstabe]` *go to marker* 
+  Buchstabe klein local Mark, Buchstabe groß global Mark 
+
+Am besten max. Vier Marker verwenden nach wichtigkeit im Kopf sortiert. R E W Q Finger von linker Hand. 
 
 ## Zu Funktion gehen
 
-`[g]` + `[*]`
+`[g]` + `[*]` 
 
 ## Links
 
