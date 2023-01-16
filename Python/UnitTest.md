@@ -17,11 +17,7 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(result, 15)
 ```
 
-Test ausführen:
-
-```
-$ python -m unittest test_module_name.py
-```
+Test ausführen mit `$ python -m unittest test_module_name.py` oder `$ pytest`.
 
 Zum auführen in IDE, zu Testmodul hinzufügen:
 
@@ -49,7 +45,7 @@ if __name__ == '__main__':
 
 [unittest — Unit testing framework &#8212; Python 3.11.1 documentation](https://docs.python.org/3/library/unittest.html#unittest.TestCase.debug)
 
-### assert Exeption
+### assert Exception
 
 `self.assertRaises(ValueError, Funktions-Name, Funktions-Parameter)`
 
@@ -66,3 +62,39 @@ with self.assertRaises(ValueError):
 ```
 
 ## pytest
+
+pytest ist nicht im Standart Package und muss zusätzlich installiert werden. Es wird von vielen Entwicklern benutzt, da es einfacher zu händeln ist.
+
+Pythest kann ohne Klasse und Import verwendet werden:
+
+```python
+def test_something() -> None:
+    var = 1
+    assert var == 1
+```
+
+### Coverage report
+
+Ein Coverage report kann mit `$ pytest --cov` aufgerufen werden.
+
+Für eine bessere Übersicht kann ein Html Coverage Report erstellt werden. Dieser wird mit `$ coverage html` erstellt. Anschließend befindet sich der Html Bericht unter htmlcov/ im Projektordner.
+
+## assert Exceptions
+
+```python
+import pytest
+
+def test_divide_by_zero():
+    with pytest.raises(ZeroDivisionError):
+        1 / 0
+```
+
+oder
+
+```python
+import pytest
+
+def test_divide_by_zero():
+    with pytest.raises(ZeroDivisionError, match='division by zero'):
+        1 / 0
+```
