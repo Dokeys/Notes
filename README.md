@@ -22,6 +22,7 @@ Dieses Repository beinhaltet meine eigenen Notizen und Tutorials für Programmie
 - [vim](https://github.com/Dokeys/Notes/blob/main/Linux/vim.md)
 
 ### Python
+- [AbstractBaseClass](https://github.com/Dokeys/Notes/blob/main/Python/AbstractBaseClass.md)
 - [Dateien](https://github.com/Dokeys/Notes/blob/main/Python/Dateien.md)
 - [Error-Handling](https://github.com/Dokeys/Notes/blob/main/Python/Error-Handling.md)
 - [Protocol](https://github.com/Dokeys/Notes/blob/main/Python/Protocol.md)
