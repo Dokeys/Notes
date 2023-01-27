@@ -26,9 +26,11 @@ Dieses Repository beinhaltet meine eigenen Notizen und Tutorials für Programmie
 - [Dateien](https://github.com/Dokeys/Notes/blob/main/Python/Dateien.md)
 - [Error-Handling](https://github.com/Dokeys/Notes/blob/main/Python/Error-Handling.md)
 - [Protocol](https://github.com/Dokeys/Notes/blob/main/Python/Protocol.md)
+- [SQLite](https://github.com/Dokeys/Notes/blob/main/Python/SQLite.md)
 - [UnitTest](https://github.com/Dokeys/Notes/blob/main/Python/UnitTest.md)
 - [Verschiedenes](https://github.com/Dokeys/Notes/blob/main/Python/Verschiedenes.md)
 
 ### UML
 - [Klassendiagramme-Objektdiagramme](https://github.com/Dokeys/Notes/blob/main/UML/Klassendiagramme-Objektdiagramme.md)
+- [Sequenzdiagramme](https://github.com/Dokeys/Notes/blob/main/UML/Sequenzdiagramme.md)
 
