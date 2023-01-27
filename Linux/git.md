@@ -4,7 +4,7 @@
 
 Repostitory auf [www.github.com]() erstellen. Soll anschließend damit gearbeitet werden, muss es auf das Zielsystem geklont werden.
 
-## Clonen
+## Klonen
 
 Damit ein vorhandenes oder neu erstelltes Repository auf dem Zielsystem erscheint muss es geclont werden:
 
@@ -18,7 +18,7 @@ git clone https://github.com/Dokeys/Notes.git
 git add Ordner oder Datei
 ```
 
-Es können auch mehrere Dateien und Ordner übergeben werden.
+Es können auch mehrere Dateien und Ordner als Parameter übergeben werden.
 
 ## Status abfragen
 
@@ -42,9 +42,9 @@ commit nur mit ausgewählten Ordnern oder Dateien
 git commit Ordner oder Datei
 ```
 
-Es wird automatisch vim geöffnet und eine kurze Beschreibung kann hinzugefügt werden. Wird Beschreibung keine hinzugefügt wird der commit abgebrochen.
+Es wird automatisch vim geöffnet und eine kurze Beschreibung kann hinzugefügt werden. Wird keine Beschreibung hinzugefügt, wird der commit abgebrochen.
 
-Anschließend mit `push` das main Repository mit dem lokalen synchronisieren.
+Anschließend mit `push` das Remote-Repository mit dem lokalen synchronisieren.
 
 ```git
 git push
