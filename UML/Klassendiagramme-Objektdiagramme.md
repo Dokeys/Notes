@@ -193,6 +193,46 @@ class Pkw(Fahrzeug):
     pass
 ```
 
+### Dependency
+
+```mermaid
+classDiagram
+
+class Klasse1
+class Klasse2
+
+Klasse1 ..> Klasse2
+
+
+Astronaut ..> Spaceship
+
+class Astronaut {
+    Beispiel
+    firstname: str
+    lastname: str
+    enter(spaceship: Spaceship)
+}
+
+class Spaceship {
+    name: str
+ }
+```
+
+**Beispiel:**
+
+```python
+class Spaceship:
+    name: str
+
+
+class Astronaut:
+    firstname: str
+    lastname: str
+
+    def enter(spaceship: Spaceship):
+        pass
+```
+
 ## Multiplizitäten
 
 Jedes Objekt von A steht mit x Objekten von B in Beziehung. Wird bei einem Objektdiagramm nicht mehr benötigt.
