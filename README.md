@@ -11,6 +11,10 @@ Dieses Repository beinhaltet meine eigenen Notizen und Tutorials für Programmie
 - [Nützliches](https://github.com/Dokeys/Notes/blob/main/C-Programmieren/Nützliches.md)
 - [Strings](https://github.com/Dokeys/Notes/blob/main/C-Programmieren/Strings.md)
 
+### Elektronik-Entwicklung
+- [Altium-Designer](https://github.com/Dokeys/Notes/blob/main/Elektronik-Entwicklung/Altium-Designer.md)
+- [Vias](https://github.com/Dokeys/Notes/blob/main/Elektronik-Entwicklung/Vias.md)
+
 ### Keyboard-Shortcuts
 - [Eclipse-Shortcuts](https://github.com/Dokeys/Notes/blob/main/Keyboard-Shortcuts/Eclipse-Shortcuts.md)
 - [PyCharm-Shortcuts](https://github.com/Dokeys/Notes/blob/main/Keyboard-Shortcuts/PyCharm-Shortcuts.md)

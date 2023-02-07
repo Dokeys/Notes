@@ -22,7 +22,6 @@ HEADER_FILE = "readme_header.md"
 OUTPUT_FILE = "README.md"
 
 FOLDERS_TO_IGNORE = (
-    "Elektronik Entwicklung",
     "Mathe",
     "Delphi",
     "Design Pattern",
