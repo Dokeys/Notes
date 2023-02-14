@@ -131,6 +131,17 @@ Am besten max. Vier Marker verwenden nach wichtigkeit im Kopf sortiert. R E W Q 
 
 `[g]` + `[*]` 
 
+## .vimrc Settings
+
+```
+set nu
+color desert
+set cursorline
+hi CursorLine term=bold cterm=bold guibg=Grey40
+```
+
+
+
 ## Links
 
 https://www.geeksforgeeks.org/getting-started-with-vim-editor-in-linux/
