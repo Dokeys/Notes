@@ -12,6 +12,10 @@
 - `[0]` *Move the cursor to the beginning of the line*
 - `[$]` *to the end of the line, INCLUDING the last character* 
 
+## Line jumping
+
+- `line number` + `G` oder `gg` *jump to line number*
+
 ## Input Mode
 
 - `[i]` *put the cursor before the current position* 
