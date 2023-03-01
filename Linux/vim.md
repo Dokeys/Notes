@@ -8,6 +8,8 @@
 - `[l]` *rechts* 
 - `[w]` *until the start of the next word, EXCLUDING its first character* 
 - `[e]` *to the end of the current word, INCLUDING the last character* 
+- `[b]` *until the end of the next word*
+- `[0]` *Move the cursor to the beginning of the line*
 - `[$]` *to the end of the line, INCLUDING the last character* 
 
 ## Input Mode
@@ -39,7 +41,7 @@
 ## Einfügen
 
 - `[p]` + `[p]` 
-  -`["]` + `[+]` + `[p]` *aus Zwischenablage einfügen* 
+- `["]` + `[+]` + `[p]` *aus Zwischenablage einfügen* 
 
 ## Ausschneiden
 
@@ -139,8 +141,6 @@ color desert
 set cursorline
 hi CursorLine term=bold cterm=bold guibg=Grey40
 ```
-
-
 
 ## Links
 
