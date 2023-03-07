@@ -20,6 +20,7 @@
 
 - `[i]` *put the cursor before the current position* 
 - `[a]` *put the cursor after the current position* 
+- `[A]` *put the cursor to the end of the line*
 - `[o]` *put the cursor below the line* 
 - `[O]` *puts the cursor above the line* 
 
@@ -111,6 +112,20 @@
 - `[Control]` + `[d]` *Move forward 1/2 screen* 
 - `[Control]` + `[b]` *Move back one full screen* 
 - `[Control]` + `[u]` *Move back (up) 1/2 screen* 
+
+## Recordings
+
+Eine Abfolge von Befehlen aufnehmen und beliebig oft wiederholen.
+
+- `[q]` + `[z.B. [a], beliebiger Buchstabe für Speicherplatz]` startet recording Modus
+
+- Abfolge von Befehlen die aufgenommen werden sollen ausführen
+
+- `[q]` recording beenden
+
+- `[@]` + `[Speicherplatz Buchstabe]` wiederholt Aufnahme
+
+- oder `[Anzahl von Wiederholungen]` + `[@]` + `[Speicherplatz Buchstabe]` wiederhole Aufnahme eine bestimmte Anzahl
 
 ## Von VIM aus compilieren
 
