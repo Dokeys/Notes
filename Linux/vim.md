@@ -30,7 +30,11 @@
 
 ## Suchen
 
-`/Suchword` oder `?Suchword`. Danach mit `[n]` zum nächsten Treffer springen und um oben zu suchen `[#]` drücken. \
+- `/Suchword` oder `?Suchword`. Danach mit `[n]` zum nächsten Treffer springen und um oben zu suchen `[#]` drücken. 
+
+- mit `[*]` wird Wort unter Cursor zum suchen makiert. Einmal drücken und danach mit `[n]` oder `[#]` weiter springen.
+
+- mit `:set ic` wird Groß und Kleinschreibung in aktuellem Buffer ignoriert
 
 ## Löschen
 
