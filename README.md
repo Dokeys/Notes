@@ -22,8 +22,12 @@ Dieses Repository beinhaltet meine eigenen Notizen und Tutorials für Programmie
 
 ### Linux
 - [git](https://github.com/Dokeys/Notes/blob/main/Linux/git.md)
+- [svn](https://github.com/Dokeys/Notes/blob/main/Linux/svn.md)
 - [tmux](https://github.com/Dokeys/Notes/blob/main/Linux/tmux.md)
 - [vim](https://github.com/Dokeys/Notes/blob/main/Linux/vim.md)
+
+### Mikrocontroller
+- [Interrupts](https://github.com/Dokeys/Notes/blob/main/Mikrocontroller/Interrupts.md)
 
 ### Python
 - [AbstractBaseClass](https://github.com/Dokeys/Notes/blob/main/Python/AbstractBaseClass.md)
