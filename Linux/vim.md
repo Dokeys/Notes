@@ -89,6 +89,12 @@
 
 :tabmove -2 oder :tabmove + 
 
+## Window spliting
+
+- `:split Dateiname` *öffne Datei in neuem horizontalem Fenster*
+- `:nsplit Dateiname` *öffne Datei in neuem vertikalem Fenster*
+- (`[strg]` + `[w]`) + (`[strg]` + `[w]`) *wechsle Fenster*
+
 ## Zeilen anzeigen
 
 `:set nu` 
