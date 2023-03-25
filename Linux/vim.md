@@ -96,8 +96,10 @@
 ## Window spliting
 
 - `:split Dateiname` *öffne Datei in neuem horizontalem Fenster*
-- `:nsplit Dateiname` *öffne Datei in neuem vertikalem Fenster*
-- (`[strg]` + `[w]`) + (`[strg]` + `[w]`) *wechsle Fenster*
+- `:vs Dateiname` *öffne Datei in neuem vertikalem Fenster*
+- (`[contol]` + `[w]`) + `[h]`, `[j]` , `[k]` oder `[l]` *wechsle zu Fenster in bestimmter Richtung*
+- (`[control]` + `[w]`) + `[optional Nummer]` +  `[+]`, `[-]` , `[<` oder `[>]` *Fenster größe anpassen*
+- (`[control]` + `[w]`) + `[=]` *reset Fester größe*
 
 ## Zeilen anzeigen
 
@@ -106,6 +108,14 @@
 ## Auto completion
 
 `[strg]` + `[p]` im Edit mode 
+
+## Rechtschreibprüfung
+
+- `:set spell` *aktiviert die Rechtschreibprüfung*
+
+- `:set spell!` *deaktiviert die Rechtschreibprüfung*
+
+- `:set spelllang=en` *bestimmte Sprache einstellen*
 
 ## Line breaking
 
@@ -118,10 +128,10 @@
 
 ## Anschauen
 
-- `[Control]` + `[f]` *Move forward one full screen* 
-- `[Control]` + `[d]` *Move forward 1/2 screen* 
-- `[Control]` + `[b]` *Move back one full screen* 
-- `[Control]` + `[u]` *Move back (up) 1/2 screen* 
+- `[control]` + `[f]` *Move forward one full screen* 
+- `[control]` + `[d]` *Move forward 1/2 screen* 
+- `[control]` + `[b]` *Move back one full screen* 
+- `[control]` + `[u]` *Move back (up) 1/2 screen* 
 
 ## Recordings
 
@@ -148,6 +158,10 @@ Um Make Fehler anzuschauen:
 - `:copen` 
 
 Mit `:!Befehl `wird ein ganz normalaes Bash Comando ausgeführt. So kann zum Beispiel ein Programm gestartet werden `:!./program` 
+
+- `[contol]` + `[z]` *vim oder jedes andere Program in den Hintergrund legen*
+
+- in Terminal dan `fg` eingeben um zurück zu gehen
 
 ## Marks
 
