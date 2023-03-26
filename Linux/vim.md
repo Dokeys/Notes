@@ -176,14 +176,9 @@ Am besten max. Vier Marker verwenden nach wichtigkeit im Kopf sortiert. R E W Q 
 
 `[g]` + `[*]` 
 
-## .vimrc Settings
+## .vimrc Datei
 
-```
-set nu
-color desert
-set cursorline
-hi CursorLine term=bold cterm=bold guibg=Grey40
-```
+Eigene vimrc Datei mit VIM Einstellungen befindet sich in diesem Repository im Linux Ordner.
 
 ## Links
 
