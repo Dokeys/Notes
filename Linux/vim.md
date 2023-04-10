@@ -79,6 +79,7 @@
 
 - `:tab` Commando 
 - `:tabnew name` 
+- `:Texplore` *öffne neuen Tab mit File-Explorer*
 
 ### Bestehende Datei öffnen
 
