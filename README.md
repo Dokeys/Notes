@@ -8,6 +8,7 @@ Dieses Repository beinhaltet meine eigenen Notizen und Tutorials für Programmie
 ### C-Programmieren
 - [Bitmanipulation](https://github.com/Dokeys/Notes/blob/main/C-Programmieren/Bitmanipulation.md)
 - [Clean-Code](https://github.com/Dokeys/Notes/blob/main/C-Programmieren/Clean-Code.md)
+- [Compiler-Linker](https://github.com/Dokeys/Notes/blob/main/C-Programmieren/Compiler-Linker.md)
 - [Nützliches](https://github.com/Dokeys/Notes/blob/main/C-Programmieren/Nützliches.md)
 - [Strings](https://github.com/Dokeys/Notes/blob/main/C-Programmieren/Strings.md)
 
@@ -27,6 +28,7 @@ Dieses Repository beinhaltet meine eigenen Notizen und Tutorials für Programmie
 - [vim](https://github.com/Dokeys/Notes/blob/main/Linux/vim.md)
 
 ### Mikrocontroller
+- [Assembler](https://github.com/Dokeys/Notes/blob/main/Mikrocontroller/Assembler.md)
 - [Interrupts](https://github.com/Dokeys/Notes/blob/main/Mikrocontroller/Interrupts.md)
 
 ### Python
