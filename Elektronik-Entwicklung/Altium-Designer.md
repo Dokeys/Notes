@@ -48,3 +48,15 @@
 - - danach Auswahl mit `[shift]` dazu, um mehrere Netze zu Highlighten
 - `[g]` grid einstellen
 - `[J]`ump -> `[C]`omponent. Find a specific component
+
+### Nullpunkt (Origin)
+
+Nullpunkt kann unter `Edit->Origin->Set` versetzt werden. **Achtung** `Reset` Origin kann nicht rückgängig gemacht werden. 
+
+Um den Bezugspunkt in Bezug zum aktuellen Nullpunkt zu verschieben am besten ein Kreis auf die neue Position mit einem beliebigen Layer setzen. Anschließend Kreis Markieren und Grid so einstellen das Mittelpunkt im Raster liegt. Mit Set Origin den Nullpunkt auf den Mittelpunkt vom Kreis setzten. Normalerweiße wird der Mittelpunkt eines Kreises automatisch eingefangen, es kann aber vorkommen dass ein anderer Layer über dem Kreis liegt. Um dass zu verhindern die anderen Layer ausschalten oder Kreis Layer auswählen.
+
+## Footprints
+
+### 3D-Model hinzufügen
+
+Layer auswählen der für 3D-Modelle bestimmt ist, `Place->3D Body` stp oder step Datei auswählen und plazieren. Mit `[2]` und `[3]` Tasten kann Ansicht zwischen 2D und 3D gewechselt werden. Falls die Position nicht stimmt kann diese noch in den Propertys unter 3D Model Type angepasst werden.
