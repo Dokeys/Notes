@@ -8,7 +8,6 @@ Dieses Repository beinhaltet meine eigenen Notizen und Tutorials für Programmie
 ### C-Programmieren
 - [Bitmanipulation](https://github.com/Dokeys/Notes/blob/main/C-Programmieren/Bitmanipulation.md)
 - [Clean-Code](https://github.com/Dokeys/Notes/blob/main/C-Programmieren/Clean-Code.md)
-- [Compiler-Linker](https://github.com/Dokeys/Notes/blob/main/C-Programmieren/Compiler-Linker.md)
 - [Nützliches](https://github.com/Dokeys/Notes/blob/main/C-Programmieren/Nützliches.md)
 - [Strings](https://github.com/Dokeys/Notes/blob/main/C-Programmieren/Strings.md)
 
@@ -39,6 +38,9 @@ Dieses Repository beinhaltet meine eigenen Notizen und Tutorials für Programmie
 - [SQLite](https://github.com/Dokeys/Notes/blob/main/Python/SQLite.md)
 - [UnitTest](https://github.com/Dokeys/Notes/blob/main/Python/UnitTest.md)
 - [Verschiedenes](https://github.com/Dokeys/Notes/blob/main/Python/Verschiedenes.md)
+
+### Sonstiges
+- [Englisch-Merkzettel](https://github.com/Dokeys/Notes/blob/main/Sonstiges/Englisch-Merkzettel.md)
 
 ### UML
 - [Klassendiagramme-Objektdiagramme](https://github.com/Dokeys/Notes/blob/main/UML/Klassendiagramme-Objektdiagramme.md)
