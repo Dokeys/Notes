@@ -31,9 +31,7 @@
 ### Schaltplan Symbol Updaten
 
 - Symbol in .SchLib bearbeiten und speichern
-
 - Tools -> Update From Library
-
 - Hacken bei wird bei allen Symbolen gesetzt bei dennen es eine Änderung gab
 
 ## PCB-Design
@@ -48,6 +46,15 @@
 - - danach Auswahl mit `[shift]` dazu, um mehrere Netze zu Highlighten
 - `[g]` grid einstellen
 - `[J]`ump -> `[C]`omponent. Find a specific component
+- `[shift]` + `[s]` View mode ändern (Hilft wenn Platine nicht richtig angezeigt wird)
+
+### 3D-Viewer
+
+- mit `[2]` und `[3]` kann zwischen normaler und 3D Ansicht gewechselt werden
+- `[shift]` + `[rechte Maustaste]` Platinen Ansicht drehen
+- `[shift]` + `[F]` Platine drehen
+- `[Mausrad]` Zoomen
+- `[rechte Maustaste]` Ansicht bewegen
 
 ### Nullpunkt (Origin)
 
