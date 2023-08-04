@@ -24,6 +24,7 @@ Es können auch mehrere Dateien und Ordner als Parameter übergeben werden.
 
 ```git
 git status
+git log
 ```
 
 ## Repository updaten
@@ -50,6 +51,14 @@ Anschließend mit `push` das Remote-Repository mit dem lokalen synchronisieren.
 git push
 ```
 
+### Commit/Merge rückgängig machen
+
+```git
+git reset commit_name
+```
+
+mit `git log` kann die Historie angeschaut werden.
+
 ## Diff
 
 Aktuelles Verzeichnis mit main Branch vergleichen.
@@ -59,6 +68,8 @@ $ git diff main
 ```
 
 ## Branches
+
+Listet die lokal gespeichterten Branches:
 
 ```git
 $ git branch --list
@@ -78,8 +89,56 @@ Neue branch erstellen:
 git branch neuer_branch_name
 ```
 
-Branch löschen:
+Lokale branch löschen:
 
 ```git
 git branch -d branch_name
+```
+
+### Pull-Request von Branch auf main
+
+Lokales Repository updaten:
+
+```git
+git fetch origin
+```
+
+main Repository in Branch mergen:
+
+```git
+git merge origin/main
+```
+
+Falls keine Konflikte vorhanden sind, Branch auf main Pushen:
+
+```git
+git push origin/main branch-name
+```
+
+## Stash
+
+Mit stash können Änderungen lokal gespeichert und später wieder abgerufen werden.
+
+Eine Änderung "bunkern":
+
+```git
+git stash save "kurze Beschreibung"
+```
+
+Stahes listen:
+
+```git
+git stash list
+```
+
+Stash auswählen:
+
+```git
+git stash apply "stash@{Stash Nummer}"
+```
+
+Alle Stashes löschen:
+
+```git
+git stash clear
 ```
