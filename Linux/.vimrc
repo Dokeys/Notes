@@ -1,5 +1,5 @@
 " .vimrc file from Dominik Knoll
-" Last changes: 12.08.23
+" Last changes: 11.09.23
 
 " -- VIEW SETTINGS --
 
@@ -54,3 +54,5 @@ filetype plugin on
 " Enable Omnicomplete features
 set omnifunc=syntaxcomplete#Complete
 
+"  -- GVIM GUI SETTINGS --
+set guifont=Consolas:h13
