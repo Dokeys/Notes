@@ -110,13 +110,21 @@
 
 `[strg]` + `[p]` im Edit mode 
 
+## Search an replace
+
+- `/Suchwort` *nach Wort suchen, mit n oder N wird Vorwärts oder Rückwärts gesprungen*
+- `:%s/old/new/g` *old mit new ersetzen in gesamter Datei*
+- `:%s/old/new/gc` *ersetzen mit nachfragen*
+- `:3,10s/old/new/g` *nur in Zeile 3 bis 10 ersetzen*
+- `:.,+4s/old/new/g` *von aktueller Zeile bis aktuelle Zeile plus 4 ersetzen*
+ 
 ## Rechtschreibprüfung
 
 - `:set spell` *aktiviert die Rechtschreibprüfung*
-
-- `:set spell!` *deaktiviert die Rechtschreibprüfung*
-
-- `:set spelllang=en` *bestimmte Sprache einstellen*
+- `:set spell!` oder `:set nospell` *deaktiviert die Rechtschreibprüfung*
+- `:set spelllang=en_us` *bestimmte Sprache einstellen.* `de` *für deutsch*
+- Mit `]s` und `[s` *springt der Cursor zum nächsen falsch geschreibenen Wort*
+- Unter falsch geschreibenem Wort `z=` öffnet Vorschläge.
 
 ## Line breaking
 
@@ -139,38 +147,29 @@
 Eine Abfolge von Befehlen aufnehmen und beliebig oft wiederholen.
 
 - `[q]` + `[z.B. [a], beliebiger Buchstabe für Speicherplatz]` startet recording Modus
-
 - Abfolge von Befehlen die aufgenommen werden sollen ausführen
-
 - `[q]` recording beenden
-
 - `[@]` + `[Speicherplatz Buchstabe]` wiederholt Aufnahme
-
 - oder `[Anzahl von Wiederholungen]` + `[@]` + `[Speicherplatz Buchstabe]` wiederhole Aufnahme eine bestimmte Anzahl
 
 ## Von VIM aus compilieren
 
 Eine Makefile muss vorhanden sein: 
-
 - `:make` 
 
 Um Make Fehler anzuschauen: 
-
 - `:copen` 
 
 Mit `:!Befehl `wird ein ganz normalaes Bash Comando ausgeführt. So kann zum Beispiel ein Programm gestartet werden `:!./program` 
 
 - `[contol]` + `[z]` *vim oder jedes andere Program in den Hintergrund legen*
-
 - in Terminal dan `fg` eingeben um zurück zu gehen
 
 ## Marks
 
 - `[m]` + `[Buchstabe]` *set marker* 
-
 - `[']` + `[Buchstabe]` *go to marker* 
   Buchstabe klein local Mark, Buchstabe groß global Mark 
-
 Am besten max. Vier Marker verwenden nach wichtigkeit im Kopf sortiert. R E W Q Finger von linker Hand. 
 
 ## Zu Funktion gehen
