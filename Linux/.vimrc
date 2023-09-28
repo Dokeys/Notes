@@ -1,5 +1,5 @@
 " .vimrc file from Dominik Knoll
-" Last changes: 11.09.23
+" Last changes: 23.09.23
 
 " -- VIEW SETTINGS --
 
@@ -27,6 +27,10 @@ endif
 set cursorline
 " Set cursor line style
 hi CursorLine term=bold cterm=bold guibg=Grey40
+
+" Setup spell checker
+set spell spelllang=en_us
+set nospell
 
 " -- OTHER OPTIONS --
 

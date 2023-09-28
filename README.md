@@ -13,6 +13,8 @@ Dieses Repository beinhaltet meine eigenen Notizen und Tutorials für Programmie
 
 ### Elektronik-Entwicklung
 - [Altium-Designer](https://github.com/Dokeys/Notes/blob/main/Elektronik-Entwicklung/Altium-Designer.md)
+- [Gerber-Dateien](https://github.com/Dokeys/Notes/blob/main/Elektronik-Entwicklung/Gerber-Dateien.md)
+- [KiCad-SPICE-Simulation](https://github.com/Dokeys/Notes/blob/main/Elektronik-Entwicklung/KiCad-SPICE-Simulation.md)
 - [Vias](https://github.com/Dokeys/Notes/blob/main/Elektronik-Entwicklung/Vias.md)
 
 ### Keyboard-Shortcuts
@@ -21,7 +23,9 @@ Dieses Repository beinhaltet meine eigenen Notizen und Tutorials für Programmie
 - [VSCode-Shortcuts](https://github.com/Dokeys/Notes/blob/main/Keyboard-Shortcuts/VSCode-Shortcuts.md)
 
 ### Linux
+- [Andere-Tools](https://github.com/Dokeys/Notes/blob/main/Linux/Andere-Tools.md)
 - [git](https://github.com/Dokeys/Notes/blob/main/Linux/git.md)
+- [Linux-Shortcuts](https://github.com/Dokeys/Notes/blob/main/Linux/Linux-Shortcuts.md)
 - [svn](https://github.com/Dokeys/Notes/blob/main/Linux/svn.md)
 - [tmux](https://github.com/Dokeys/Notes/blob/main/Linux/tmux.md)
 - [vim](https://github.com/Dokeys/Notes/blob/main/Linux/vim.md)
