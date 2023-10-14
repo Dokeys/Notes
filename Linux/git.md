@@ -7,7 +7,6 @@ Repostitory auf [www.github.com]() erstellen. Soll anschließend damit gearbeite
 ## Klonen
 
 Damit ein vorhandenes oder neu erstelltes Repository auf dem Zielsystem erscheint muss es geclont werden:
-
 ```git
 git clone https://github.com/Dokeys/Notes.git
 ```
@@ -38,7 +37,6 @@ git commit
 ```
 
 commit nur mit ausgewählten Ordnern oder Dateien
-
 ```git
 git commit Ordner oder Datei
 ```
@@ -62,7 +60,6 @@ mit `git log` kann die Historie angeschaut werden.
 ## Diff
 
 Aktuelles Verzeichnis mit main Branch vergleichen.
-
 ```git
 $ git diff main 
 ```
@@ -70,7 +67,6 @@ $ git diff main
 ## Branches
 
 Listet die lokal gespeichterten Branches:
-
 ```git
 $ git branch --list
   main
@@ -78,19 +74,16 @@ $ git branch --list
 ```
 
 Branch wechseln:
-
 ```git
 $ git checkout main
 ```
 
 Neue branch erstellen:
-
 ```git
 git branch neuer_branch_name
 ```
 
 Lokale branch löschen:
-
 ```git
 git branch -d branch_name
 ```
@@ -98,19 +91,16 @@ git branch -d branch_name
 ### Pull-Request von Branch auf main
 
 Lokales Repository updaten:
-
 ```git
 git fetch origin
 ```
 
 main Repository in Branch mergen:
-
 ```git
 git merge origin/main
 ```
 
 Falls keine Konflikte vorhanden sind, Branch auf main Pushen:
-
 ```git
 git push origin/main branch-name
 ```
@@ -120,13 +110,11 @@ git push origin/main branch-name
 Mit stash können Änderungen lokal gespeichert und später wieder abgerufen werden.
 
 Eine Änderung "bunkern":
-
 ```git
 git stash save "kurze Beschreibung"
 ```
 
 Stahes listen:
-
 ```git
 git stash list
 ```
@@ -138,7 +126,18 @@ git stash apply "stash@{Stash Nummer}"
 ```
 
 Alle Stashes löschen:
-
 ```git
 git stash clear
+```
+
+
+## Sonstiges
+
+### Token
+
+Token updaten, damit Token nicht immer neu eingegben werden muss:
+```
+git config --global user.name "username"
+git config --global user.email "email"
+git config --global credential.helper cache
 ```
