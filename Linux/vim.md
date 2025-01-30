@@ -27,6 +27,7 @@
 ## Edit Mode verlassen
 
 `[control]` + `[c]` 
+`j` + `j` *with own [.vimrc file](https://github.com/Dokeys/Notes/blob/main/Linux/.vimrc)*
 
 ## Suchen
 
@@ -68,9 +69,9 @@
 
 `[g]` + `[f]` 
 
-## Öffne Datei unter Cursor in neuem Tab:
+## Öffne Datei unter Cursor in neuem Tab
 
-[strg+w] gf 
+`control + w` `g`+`f` 
 
 ## Arbeiten mit Tabs
 
